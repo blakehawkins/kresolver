@@ -1,0 +1,12 @@
+[package]
+name = "kresolver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.64"
+csv = "1.1.6"
+lru = "0.7.8"
+rust_decimal = "1.26.1"
+serde = { version = "1.0.144", features = [ "derive" ] }
+thiserror = "1.0.34"
